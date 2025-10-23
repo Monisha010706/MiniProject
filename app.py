@@ -8,7 +8,7 @@ import json
 import os
 import uuid   
 app = Flask(__name__)
-app.secret_key = "a57c2be079bd14aacfcf483d173e0ca9"
+app.secret_key = "your_secret_key_here"
 
 # Load dataset
 df = pd.read_csv("extended_hunger_dataset.csv")
